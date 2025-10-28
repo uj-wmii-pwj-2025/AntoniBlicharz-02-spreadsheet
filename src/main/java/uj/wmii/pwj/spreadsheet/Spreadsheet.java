@@ -1,5 +1,5 @@
 package uj.wmii.pwj.spreadsheet;
-
+import java.util.Objects;
 public class Spreadsheet {
     public static int operations (String[][] input, String type, String ref1, String ref2) {
         int val1 = extractValue(input, ref1);
